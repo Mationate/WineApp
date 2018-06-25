@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:hint="Marca vino"
+        android:id="@+id/nameEt"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:inputType="text"
+        android:padding="8dp" />
+    <EditText
+        android:hint="Año vino..."
+        android:id="@+id/yearEt"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:inputType="text"
+        android:padding="8dp" />
+    <EditText
+        android:hint="Tipo vino"
+        android:id="@+id/typeEt"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:inputType="text"
+        android:padding="8dp" />
+
+    <ImageButton
+        android:id="@+id/saveWineBtn"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:scaleType="centerCrop" />
+</LinearLayout>
